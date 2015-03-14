@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1 : Data Binding</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.min.css">
+</head>
+<body ng-app>
+<form><input type="text" ng-model="data.message" placeholder="Jefferson Lam"></form>
+<h1>Hello, my name is {{data.message}}.</h1>
+<input type="text" ng-model="data.class" placeholder="button">
+<p class="{{data.class}}">I will be an element with these classes: {{data.class}}</span>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+</body>
+</html>
